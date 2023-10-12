@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".DeepLinkActivity">
+
+    <Button
+        android:layout_marginTop="20dp"
+        android:id="@+id/btn_bonuspic"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="图片奖励" />
+
+    <Button
+        android:layout_marginTop="20dp"
+        android:id="@+id/btn_bonushint"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="hint奖励" />
+
+    <Button
+        android:layout_marginTop="20dp"
+        android:id="@+id/btn_libcate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="图库分类" />
+
+    <Button
+        android:layout_marginTop="20dp"
+        android:id="@+id/btn_paint"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="着色页" />
+
+    <Button
+        android:layout_marginTop="20dp"
+        android:id="@+id/btn_garden"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="vita garden" />
+
+    <Button
+        android:layout_marginTop="20dp"
+        android:id="@+id/btn_themelist"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="主题列表" />
+
+    <Button
+        android:layout_marginTop="20dp"
+        android:id="@+id/btn_hometab"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="一级页面" />
+</LinearLayout>
