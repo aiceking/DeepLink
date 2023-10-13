@@ -16,11 +16,12 @@ public class DeepLinkActivity extends AppCompatActivity {
         setContentView(R.layout.activity_deep_link);
         setOnClickLink(R.id.btn_bonuspic,"vitacolor://bonuspic?linkid=0005");
         setOnClickLink(R.id.btn_bonushint,"vitacolor://bonushint?linkid=0007");
-        setOnClickLink(R.id.btn_libcate,"vitacolor://libcate?key=1");
+        setOnClickLink(R.id.btn_libcate,"vitacolor://libcate?key=bonus");
         setOnClickLink(R.id.btn_paint,"vitacolor://paint?id=605d881a7058270001185603");
         setOnClickLink(R.id.btn_garden,"vitacolor://garden");
         setOnClickLink(R.id.btn_themelist,"vitacolor://themelist");
-        setOnClickLink(R.id.btn_hometab,"vitacolor://hometab?id=library");
+        setOnClickLink(R.id.btn_hometab,"vitacolor://hometab?id=community");
+        setOnClickLink(R.id.btn_group_id,"vitacolor://debug?gid=10");
     }
 
     private void setOnClickLink(int id, String link) {
